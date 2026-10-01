@@ -1,0 +1,13 @@
+如何写一个好的 Git commit message
+
+一个 commit message 的作用是告诉未来的读者（很可能是几个月后的你自己）这次改动为什么发生。因此第一原则是：说明"为什么"，而不只是"做了什么"。代码的 diff 已经显示了"做了什么"，message 应该补充 diff 无法表达的动机和背景。
+
+推荐使用约定式提交（Conventional Commits）的格式：类型(范围): 描述。常见的类型包括 feat（新功能）、fix（修复 bug）、docs（文档）、refactor（重构）、test（测试）、chore（杂项）。例如 feat(login): 支持手机号验证码登录。
+
+标题行应当控制在 50 个字符以内，并且使用祈使语气，比如写 "add retry logic" 而不是 "added retry logic"。祈使句能和 Git 自动生成的 Merge... / Revert... 保持一致。
+
+如果一次改动比较复杂，应在标题下空一行，再用正文分段解释背景和取舍。正文建议每行不超过 72 个字符，方便在终端里阅读。
+
+一个 commit 应该只做一件事。如果你发现 message 里出现了"并且"或"顺便"，通常说明这个 commit 应该被拆成多个。这样做的意义在于：一旦出问题，可以精确地回滚单个改动，而不必牵动无关的代码。
+
+最后，不要在 message 里写"修复了一些 bug"这类模糊描述。模糊的 message 等于没有 message。

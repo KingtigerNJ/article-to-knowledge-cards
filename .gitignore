@@ -1,0 +1,27 @@
+# WorkBuddy local runtime data (local paths, logs, caches) — must not be published
+.workbuddy/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
