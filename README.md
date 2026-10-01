@@ -1,5 +1,10 @@
 # make-knowledge-cards
 
+[![Release](https://img.shields.io/github/v/release/KingtigerNJ/article-to-knowledge-cards?label=release&color=6D5EF8)](https://github.com/KingtigerNJ/article-to-knowledge-cards/releases/latest)
+[![License](https://img.shields.io/github/license/KingtigerNJ/article-to-knowledge-cards?color=blue)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/KingtigerNJ/article-to-knowledge-cards)](https://github.com/KingtigerNJ/article-to-knowledge-cards/commits/main)
+[![Stars](https://img.shields.io/github/stars/KingtigerNJ/article-to-knowledge-cards?style=social)](https://github.com/KingtigerNJ/article-to-knowledge-cards/stargazers)
+
 一个开源 Skill：把一篇文章（粘贴的文本，或本地的 `.md` / `.txt` 文件）提炼成 **5~8 张知识卡片**。
 
 ## 1. 项目解决什么问题
